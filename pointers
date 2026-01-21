@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int var = 10;
+    
+    
+    int* ptr = &var; // Store address of var,
+  
+  printf(" %d\n", &ptr); // pointer address
+    
+    printf("%d\n", var);
+    printf("%d\n", *ptr);  // Dereferencing ptr to access the value
+  
+  printf("%d\n", &*ptr);
+    
+    return 0;
+}

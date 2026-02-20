@@ -22,8 +22,9 @@ int main() {
         scanf("%f", &ptr[i].marks);
 
         printf("Enter Name: ");
-        scanf(" %49[^\n]", ptr[i].name);  
-        // scanf(" %49[^\n]", ptr[i].name);
+        scanf(" %49[^\n]", ptr[i].name);  // replaced %s...  read until new line
+        // [0-9] read only numbers...
+       
     }
 
     
